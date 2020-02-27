@@ -11,7 +11,7 @@ body{
     height: 40px;
 }
 .content {
-    background-image: url("/Users/jasonnwoke/Desktop/ComputingBackground.jpg");
+    background-color: black;
     background-size: cover;
     background-position: center;
     height: 300px;
