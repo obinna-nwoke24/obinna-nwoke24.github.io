@@ -11,7 +11,7 @@ body{
     height: 40px;
 }
 .content {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     background-size: cover;
     background-position: center;
     height: 300px;
