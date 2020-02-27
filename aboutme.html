@@ -1,24 +1,31 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
+            <link href="./style.css" rel="stylesheet" type="text/css">
+            <meta charset="UTF-8">
             <title>Obinna Nwoke | About Me</title>
         </head>
         <body>
-            <h1>About Me</h1>
-            <p>
+            <div class = "navigation">
+                <a href = "./index.html"><button class = "tablink" onclick="openPage" id = "tabs">Home</button></a>
+                <a href = "./aboutme.html" ><button class = "tablink" onclick="openPage" id = "tabs">About Me</button></a>
+                <a href ="./projects.html"><button class = "tablink" onclick="openPage" id ="tabs">Projects</button></a>
+            </div>
+            <h1 id ="am">About Me</h1>
+            <p id = "amp">
                 My name is Obinna Jason Nwoke II and I am a seccond year student at St. John's University
                 <br>
                 <br>
                 I started coding because I was always in love with video games as a kid, then as I got 
                 older, I realized that I wanted to figure out how those games were coded. The first computer 
                 language that I attempted to learn was Python. It was hard for me, so I gave up. When I 
-                graduated highschool and went to St. John's University, they introduced me to Java. My 
+                graduated highschool and went to St. John's University, they introduced me to Java.<br><br> My 
                 first semester learning Java was very tough, but I slowly started to get a firm grip on it. 
                 By the end of my first year, I was writing code in Java to run practice projects just to 
                 see if I have control over what I am coding. I was creating really personal codes, like 
                 a game library, practice recursive methods, etc. Coming to the middle of my second semester 
                 (at the time of the creation of this page), I realized that I needed to get more than just 
-                Java under my belt. So I used 
+                Java under my belt.<br><br> So I used 
                 <em><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></em> to learn my second 
                 language (which was my first attempt), Python. While learning Python, I realized that it 
                 was quick to pick back up for me since I have the coding experience with Java. Once I 
@@ -28,5 +35,12 @@
                 learn HTML and CSS, in that order, to create my own person website portfolio to showcase what 
                 I know.
             </p>
+            <h2 id="languages">What Languages Do I Know</h2>
+            <ul id ="knowlang">
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML (learning)</li>
+                <li>CSS (learning)</li>
+            </ul>
         </body>
     </html>

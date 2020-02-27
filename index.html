@@ -3,23 +3,35 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            <link href="style.css" rel="stylesheet" type="text/css">
+            <link href="./style.css" rel="stylesheet" type="text/css">
             <meta charset="UTF-8">
-            <title>Obinna Nwoke | GitPages</title>
+            <title>Obinna Nwoke | Home</title>
         </head>
-            <body>
-                <nav>
-                    <a href="./aboutme.html" target="_blank">About Me</a>
-                </nav>
-                <h1>Author: Obinna Nwoke</h1>
-                <h2>What this page is about</h2>
-                <p>This page is going to start the creation of my programming portfolio</p>
-                <h2>What languages do I know?</h2>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML (learning)</li>
-                    <li>CSS (learning)</li>
-                </ul>
-            </body>
+        <body>
+            <div class = "navigation">
+                <a href = "./index.html"><button class = "tablink" onclick="openPage" id = "tabs">Home</button></a>
+                <a href = "./aboutme.html" ><button class = "tablink" onclick="openPage" id = "tabs">About Me</button></a>
+                <a href ="./projects.html"><button class = "tablink" onclick="openPage" id ="tabs">Projects</button></a>
+            </div>
+
+            <div class = "content">
+                <br>
+                <section>
+                <h1 id = "h1">Obinna Nwoke</h1>
+                </section>
+                <section>
+                    <h3 id = "h3">| Computer Programmer |</h3>
+                </section>
+            </div>
+            <div class = "design">
+                <h1 id = "info">Welcome To My Portfolio</h1>
+                <p id = "intro">Welcome to my web page personally designed to showcase 
+                    my skills in coding.<br> I am focused on continuing to learn, 
+                    so my path will continue to grow and expand. Anyone that took 
+                    the time to search through my page, I appreciate the time 
+                    that you took.<br> But if you have not, get started...
+                </p>
+                <a href="./aboutme.html"><h3 id ="more">Learn More</h3></a>
+            </div>
+        </body>
     </html>
