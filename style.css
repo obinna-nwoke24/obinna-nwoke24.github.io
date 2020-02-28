@@ -4,18 +4,42 @@ body{
     margin: 0;
     padding: 0;
 }
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+.ide {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-left: 90px;
+}
+.dide {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding-left: 120px;
+    color: rgb(46, 46, 46);
+}
 .navigation {
     background-color:rgb(19, 19, 56);
     background-size: cover;
     background-position: center;
     height: 40px;
+    border-bottom: 4pt solid rgb(10, 10, 10);
 }
 .content {
     background-color: rgb(10, 10, 10);
     background-size: cover;
     background-position: center;
-    height: 300px;
-    opacity: 0.90;
+    height: 320px;
+    opacity: 0.85;
 }
 .tablink {
     background-color: rgb(19, 19, 56);
@@ -25,8 +49,66 @@ body{
     outline: none;
     cursor: pointer;
     padding: 13px 16px;
-    width: 15%;
+    width: 10%;
   }
+.buttongrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email {
+    background-color: black;
+    border: none;
+    outline:none;
+    color: white;
+    padding: 10pt 25pt;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+    opacity: 100;
+}
+.email:hover {
+    background-color: white;
+    color:black;
+    outline-style: outset;
+    outline-width: 5pt;
+    outline-color: white;
+}
+.btn {
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 75pt 75pt;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+    transition: .3s;
+    text-decoration: underline overline;
+}
+#b1:hover {
+    background-color:rgb(0, 100, 100);
+    color: white;
+    outline-style: outset;
+    outline-width: 10pt;
+    outline-color: white;
+}
+#b2:hover {
+    background-color: rgb(145, 145, 0);
+    color: white;
+    outline-style: outset;
+    outline-width: 10pt;
+    outline-color: white;
+}
+#b3:hover {
+    background-color:rgb(134, 87, 0);
+    color: white;
+    outline-style: outset;
+    outline-width: 10pt;
+    outline-color: white;
+}
 .tablink:hover {
     background-color: rgb(13, 16, 32);
 }
@@ -41,16 +123,16 @@ body{
     color: white;
     text-align: center;
 }
+#languages {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-left: 100px;
+}
 #h3 {
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-#info {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    padding-left: 50px;
 }
 #intro {
     font-family: Arial, Helvetica, sans-serif;
@@ -65,11 +147,6 @@ body{
     padding-left: 100px;
     padding-bottom: 100px;
 }
-#am {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    padding-left: 50px;
-}
 #amp {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -77,16 +154,25 @@ body{
     padding-right: 100px;
     color: rgb(51, 50, 50);
 }
-#languages {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    padding-left: 50px;
-}
 #knowlang {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+#respage {
+    height: 800px;
+    padding-left: 150px;
+}
+#explp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     padding-left: 100px;
     padding-right: 100px;
     color: rgb(51, 50, 50);
-    padding-bottom: 100px;
+}
+#includes {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding-left: 100px;
 }
