@@ -10,6 +10,10 @@ ul {
     padding-left: 150px;
     padding-right: 100px;
 }
+#jphc {
+    font-size: 24px;
+    padding-bottom: 200px;
+}
 .title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
@@ -74,6 +78,44 @@ ul {
     outline-width: 5pt;
     outline-color: white;
 }
+.javac {
+    background-color: rgb(43, 43, 43);
+    background-position: center;
+    height: 50px;
+}
+.javacb {
+    background-color: rgb(43, 43, 43);
+    color: whitesmoke;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14.5px 13px;
+    width: 20%;
+    font-size: 18px;
+}
+.javacb:hover {
+    background-color: rgb(110, 110, 110);
+}
+#box {
+    background-color: white;
+    background-position: center;
+    height: 100px;
+    margin: 70pt;
+    padding-bottom: 300pt;
+}
+#box2 {
+    background-color: white;
+    background-position: center;
+    height: 145px;
+    margin: 70pt;
+    padding-bottom: 300pt;
+}
+.frame {
+    height: 157px;
+    width: 443.9px;
+    zoom: 2.8;
+}
 .btn {
     background-color: white;
     border: none;
@@ -87,6 +129,7 @@ ul {
     margin: 10px;
     transition: .3s;
     text-decoration: underline overline;
+    border-radius: 50%;
 }
 #b1:hover {
     background-color:rgb(0, 100, 100);
@@ -94,6 +137,7 @@ ul {
     outline-style: outset;
     outline-width: 10pt;
     outline-color: white;
+    border-radius: 0%;
 }
 #b2:hover {
     background-color: rgb(145, 145, 0);
@@ -101,6 +145,7 @@ ul {
     outline-style: outset;
     outline-width: 10pt;
     outline-color: white;
+    border-radius: 0%;
 }
 #b3:hover {
     background-color:rgb(134, 87, 0);
@@ -108,6 +153,7 @@ ul {
     outline-style: outset;
     outline-width: 10pt;
     outline-color: white;
+    border-radius: 0%;
 }
 .tablink:hover {
     background-color: rgb(13, 16, 32);
@@ -160,9 +206,13 @@ ul {
     padding-left: 150px;
     padding-right: 100px;
 }
-#respage {
-    height: 800px;
-    padding-left: 150px;
+#resume {
+    padding-left: 230px;
+    padding-bottom: 200px;
+}
+#res {
+    height: 600px;
+    width: 80%;
 }
 #explp {
     font-family: Arial, Helvetica, sans-serif;
@@ -175,4 +225,13 @@ ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
     padding-left: 100px;
+}
+.part2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+.white {
+    background-color: white;
+    border-top: 4pt solid black;
+    border-bottom: 4pt solid rgb(0, 0, 0);
 }
