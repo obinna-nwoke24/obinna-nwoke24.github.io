@@ -1,0 +1,124 @@
+Welcome to the Very Nice Checkout System
+Today's date is 02/28/2020
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+u
+Enter the user name
+Obinna
+User Obinna was added to the system
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+c
+Enter the user name
+Obinna
+Enter the book title
+Long Way Down
+Enter the call number
+001
+The book was checked out
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+c
+Enter the user name
+Obinna
+Enter the book title
+The Hate You Give
+Enter the call number
+002
+The book was checked out
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+u
+Enter the user name
+Obinna
+User Obinna is already in the system
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+l
+Enter the user name
+Obinna
+Books checked out for Obinna: 2
+Long Way Down
+001
+Due on March 13, 2020
+The Hate You Give
+002
+Due on March 13, 2020
+
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+c
+Enter the user name
+Mark
+Enter the book title
+Long Way Down
+Enter the call number
+001
+The user is not in the system, book not checkedout
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+r
+Enter the user name
+Obinna
+Enter the call number
+001
+Book was returned
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+l
+Enter the user name
+Obinna
+Books checked out for Obinna: 1
+The Hate You Give
+002
+Due on March 13, 2020
+
+Please enter a command
+U: create a user
+C: check out a book
+R: return a book
+L: list the books checked out by a user
+Q: quit
+>>>>>>
+q
+Bye!

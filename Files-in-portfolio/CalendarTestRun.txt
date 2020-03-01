@@ -1,0 +1,65 @@
+Welcome Jason.
+Today is: Saturday February 29, 2020
+The time is: 18:26:20
+What would you like to do?
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: v
+
+Calendar is empty!
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: a
+
+Enter event: bowling practice
+Enter date (MM/DD/YYYY): 03/02/2020
+Event successfully added
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: v
+
+{'03/02/2020': 'bowling practice'}
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: a
+
+Enter event: bowling practice
+Enter date (MM/DD/YYYY): 03/05/2020
+Event successfully added
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: a
+
+Enter event: bowling finals
+Enter date (MM/DD/YYYY): 03/10/2020
+Event successfully added
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: v
+
+{'03/02/2020': 'bowling practice', '03/05/2020': 'bowling practice', '03/10/2020': 'bowling finals'}
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: a
+
+Enter event: night out with the team
+Enter date (MM/DD/YYYY): 03/12/2020
+Event successfully added
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: v
+
+{'03/02/2020': 'bowling practice', '03/12/2020': 'night out with the team', '03/05/2020': 'bowling practice', '03/10/2020': 'bowling finals'}
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: u
+
+What date? 03/12/2020
+Enter the update: talk with coach
+Update successful
+{'03/02/2020': 'bowling practice', '03/12/2020': 'talk with coach', '03/05/2020': 'bowling practice', '03/10/2020': 'bowling finals'}
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: a
+
+Enter event: night out with the team
+Enter date (MM/DD/YYYY): 03/14/2020
+Event successfully added
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: v
+
+{'03/02/2020': 'bowling practice', '03/12/2020': 'talk with coach', '03/05/2020': 'bowling practice', '03/14/2020': 'night out with the team', '03/10/2020': 'bowling finals'}
+
+A to Add, U to Update, V to View, D to Delete, X to Exit: x
+
+Process finished with exit code 0

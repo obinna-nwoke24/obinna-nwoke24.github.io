@@ -1,0 +1,31 @@
+First sample run (took multiple tries to get a win)
+
+The maximum possible value: 12
+Guess a number: 7
+Rolling...
+First roll: 3
+Second roll: 4
+Result...
+You won!
+
+Process finished with exit code 0
+
+Second sample run (lost)
+
+The maximum possible value: 12
+Guess a number: 6
+Rolling...
+First roll: 2
+Second roll: 3
+Result...
+You have lost.
+
+Process finished with exit code 0
+
+Third run (guessed value was over the maximum value)
+
+The maximum possible value: 12
+Guess a number: 14
+Guess invalid
+
+Process finished with exit code 0

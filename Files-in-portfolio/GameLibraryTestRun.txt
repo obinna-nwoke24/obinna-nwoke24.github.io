@@ -1,0 +1,192 @@
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 1
+
+Title: Grand Theft Auto
+Rating: M
+
+Title: NBA 2k20
+Rating: E
+
+Title: WWE 2k20
+Rating: T
+
+Title: Apex Legends
+Rating: T
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 2
+What is the title of the game?: Minecraft
+What is the letter rating of the game?: E
+'Minecraft' ----was successfully added----  'Rated E'
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 1
+
+Title: Grand Theft Auto
+Rating: M
+
+Title: NBA 2k20
+Rating: E
+
+Title: WWE 2k20
+Rating: T
+
+Title: Apex Legends
+Rating: T
+
+Title: Minecraft
+Rating: E
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 3
+What game do you want to remove?: WWE 2k20
+'WWE 2k20' ----was successfully removed----
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 1
+
+Title: Grand Theft Auto
+Rating: M
+
+Title: NBA 2k20
+Rating: E
+
+Title: Apex Legends
+Rating: T
+
+Title: Minecraft
+Rating: E
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 6
+----The list has 4 games----
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 5
+What game are you searching for (title)?: Minecraft
+----'Minecraft' was found in the system----
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 5
+What game are you searching for (title)?: Football
+----'Football' was not found in the system----
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 1
+
+Title: Grand Theft Auto
+Rating: M
+
+Title: NBA 2k20
+Rating: E
+
+Title: Apex Legends
+Rating: T
+
+Title: Minecraft
+Rating: E
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 4
+What game's rating do you want to change?: Minecraft
+What is the rating you want to change it to?: T
+'Minecraft' ----Rating successfully changed to T ----
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 1
+
+Title: Grand Theft Auto
+Rating: M
+
+Title: NBA 2k20
+Rating: E
+
+Title: Apex Legends
+Rating: T
+
+Title: Minecraft
+Rating: T
+
+What do you want to do:
+0_ End the terminal
+1_ View the list
+2_ Add a game
+3_ Remove a game
+4_ Change a game's rating
+5_ Search for a game
+6_ List count
+Choice: 0
+
+Terminal Stopped

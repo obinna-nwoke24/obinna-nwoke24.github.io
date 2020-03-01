@@ -1,0 +1,17 @@
+Mark account. Balance: $0.00
+Balance: $0.00
+Deposit amount: $2000.00
+Balance: $2000.00
+Withdraw amount: $1000.00
+Balance: $1000.00
+Mark account. Balance: $1000.00
+
+Ben account. Balance: $0.00
+Balance: $0.00
+Deposit amount: $3250.69
+Balance: $3250.69
+Withdraw amount: $864.35
+Balance: $2386.34
+Ben account. Balance: $2386.34
+
+Process finished with exit code 0
